@@ -9,12 +9,12 @@
   }
 
   span {
-    width: 186px;
-    padding-block: 8px;
+    width: pxToRem(186);
+    padding-block: pxToRem(8);
 
-    border-radius: 20px;
+    border-radius: pxToRem(20);
     text-align: center;
-    font-size: 15px;
+    font-size: pxToRem(15);
     color: $orange;
     background-color: $dark-blue;
   }
@@ -24,11 +24,11 @@
 
     h2 {
       color: white;
-      margin-bottom: 12px;
+      margin-bottom: pxToRem(12);
     }
 
     p {
-      font-size: 15px;
+      font-size: pxToRem(15);
       color: $medium-grey;
     }
   }

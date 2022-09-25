@@ -30,3 +30,15 @@ $very-dark-blue: hsl(216, 12%, 8%);
 }
 
 //
+
+@mixin flex($align: true, $justify: true) {
+  display: flex;
+  
+  @if $align {
+    align-items: center;
+  }
+
+  @if $justify {
+    justify-content: center;
+  }
+}

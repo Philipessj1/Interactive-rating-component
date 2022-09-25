@@ -1,8 +1,6 @@
 .rating-state {
   .star-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include flex();
     height: pxToRem(40);
     width: pxToRem(40);
 
@@ -28,14 +26,11 @@
   }
 
   .score {
-    display: flex;
+    @include flex(true,false);
     justify-content: space-around;
-    align-items: center;
-
+   
     span {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      @include flex();
       height: pxToRem(45);
       width: pxToRem(45);
 
