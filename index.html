@@ -13,20 +13,20 @@
 </head>
 <body>
   <main class="main">
-    <div class="component">
+    <div class="component rating-state">
       <div class="star-icon">
         <img src="assets/icon-star.svg" alt="icon-star">
       </div>
       <h1>How did we do?</h1>
       <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
       <div class="score">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>4</span>
-        <span>5</span>
+        <span id="1" onclick="ratingSelect(this.id)">1</span>
+        <span id="2" onclick="ratingSelect(this.id)">2</span>
+        <span id="3" onclick="ratingSelect(this.id)">3</span>
+        <span id="4" onclick="ratingSelect(this.id)">4</span>
+        <span id="5" onclick="ratingSelect(this.id)">5</span>
       </div>
-      <button>SUBMIT</button>
+      <button onclick="submitRating()">SUBMIT</button>
     </div>
   </main>
   <article class="attribution">
@@ -35,5 +35,6 @@
     Coded by 
     <a href="https://www.frontendmentor.io/profile/Philipessj1" target="_blank">Philipe Mello</a>
   </article>
+  <script src="js/main.js"></script>
 </body>
 </html>

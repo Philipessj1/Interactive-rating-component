@@ -1,0 +1,35 @@
+.thank-you-state {
+  justify-content: space-around;
+  padding: pxToRem(35) pxToREm(20);
+  align-items: center;
+
+  img {
+    max-height: 32%;
+    object-fit: contain;
+  }
+
+  span {
+    width: 186px;
+    padding-block: 8px;
+
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: $orange;
+    background-color: $dark-blue;
+  }
+
+  div {
+    text-align: center;
+
+    h2 {
+      color: white;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 15px;
+      color: $medium-grey;
+    }
+  }
+}
