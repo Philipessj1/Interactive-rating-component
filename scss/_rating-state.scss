@@ -28,7 +28,8 @@
   .score {
     @include flex(true,false);
     justify-content: space-around;
-   
+    flex-wrap: wrap;
+
     span {
       @include flex();
       height: pxToRem(45);
@@ -39,6 +40,7 @@
       background-color: $dark-blue;
       border-radius: pxToRem(25);
       cursor: pointer;
+      transition: all ease-in 0.25s;
 
       &:hover {
         color: white;

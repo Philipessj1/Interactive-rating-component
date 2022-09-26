@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: pxToRem(346);
-  width: pxToRem(330);
+  max-width: pxToRem(330);
   
   padding: pxToRem(25);
   border-radius: pxToRem(16);
